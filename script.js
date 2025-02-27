@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (userData.password === password) {
                 alert("Login Successful!");
                 sessionStorage.setItem("loggedInUser", name);
-                window.location.href = "home.html";
+                window.location.href = "index.html";
             } else {
                 alert("Incorrect password!");
             }
